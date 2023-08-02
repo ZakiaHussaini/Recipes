@@ -67,6 +67,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'recipe.urls'
 
+
+ALLOWED_HOSTS = ['*']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
